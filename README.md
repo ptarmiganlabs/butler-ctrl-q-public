@@ -1,7 +1,7 @@
 # Butler Control-Q
 
 
-![butler-control-q-logo](./icon.png "Butler Control-Q logo")
+![butler-control-q-logo](./icon_128x128.png "Butler Control-Q logo")
 
 Butler Control-Q: A better admin console for Qlik Sense
 
