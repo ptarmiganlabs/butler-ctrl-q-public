@@ -19,3 +19,6 @@ Use the in-app license store to purchase a license that will unlock all features
 
 ## Sample screen shots
 
+### Plain task table
+![butler-control-q-plain-task-table](./img/butler-control-q-plain-task-table.png "Butler Control-Q plain task table")
+
