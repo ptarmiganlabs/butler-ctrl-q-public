@@ -15,6 +15,14 @@ When started it will go into trial mode.
 Once trial mode ends some parts of the app will become limited and only show some of the data retrived from Qlik Sense Enterprise.  
 Use the in-app license store to purchase a license that will unlock all features for the following 12 months.
 
+## Pre-relase
+
+Butler Control-Q is currently (March 2021) in pre-release, active development.  
+The versions made available on the release page are however working and should be usable for anyone doing work on Qlik Sens Enterprise on Windows servers. 
+
+The installers for both Windows and macOS are signed, but may still trigger warnings when installed.  
+This is normal behaviour for new, not yet widely used Windows and macOS apps (unless they are signed in ways involving lots of $$$ to Microsoft and Apple).
+
 ## Sample screen shots
 
 ### Plain task table
