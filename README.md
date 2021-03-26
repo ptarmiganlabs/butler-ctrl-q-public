@@ -2,7 +2,6 @@
 
 ## Butler Control-Q: A better admin console for Qlik Sense.
 
-***
 
 This repository serves these purposes:
 
