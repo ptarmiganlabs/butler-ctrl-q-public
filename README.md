@@ -11,9 +11,8 @@ This repository serves these purposes:
 3. It provides a [discussion forum](https://github.com/ptarmiganlabs/butler-control-q-public/discussions) in which you can ask questions, describe ideas for new features etc.
 
 
-Butler Control-Q can be freely downloaded from this site. 
+Butler Control-Q can be freely downloaded from this site.  
 When started it will go into trial mode.  
 
-Once trial mode ends some parts of the app will become limited and only show part of the data retrived from Qlik Sense Enterprise. 
-
+Once trial mode ends some parts of the app will become limited and only show part of the data retrived from Qlik Sense Enterprise.  
 Use the in-app license store to purchase a license that will unlock all features for the following 12 months.
