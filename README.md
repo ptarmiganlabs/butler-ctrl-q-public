@@ -22,13 +22,16 @@ Butler Control-Q includes unique features such as
 - Export detailed task information as CSV, JSON or YAML. Great for debugging your Sense API integrations.
 - Easy view into what tasks are scheduled (daily, hourly, one-time etc) and what tasks don't have a schedule.
 
+For now it's a read-only tool: It lets you view reload task related information, but not edit it.  
+This may change in future versions.
+
 ## Can I try it?
 
 Yes! While it's still early days for Control-Q, the beta program is open.
 
 The beta versions are available in the [releases](https://github.com/ptarmiganlabs/butler-control-q-public/releases) section of this GitHub project.  
 
-Butler Control-Q is currently (March 2021) in active development with new beta versions released weekly (or even more often).  
+Butler Control-Q is currently (March 2021) in active development with frequent releases of new versions.  
 
 The features offered by the beta versions are - to the best of our knowledge - stable and production ready. Even the beta versions should thus be quite useful for anyone doing work on Qlik Sens Enterprise on Windows servers.  
 
