@@ -9,12 +9,6 @@ This repository...
 2. Contains the public [bug/issues/feature tracker](https://github.com/ptarmiganlabs/butler-control-q-public/issues).
 3. Provides a [discussion forum](https://github.com/ptarmiganlabs/butler-control-q-public/discussions) in which you can ask questions, describe ideas for new features etc.
 
-Butler Control-Q can be freely downloaded from this site.  
-When started it will go into trial mode.  
-
-Once trial mode ends some parts of the app will become limited and only show some of the data retrived from Qlik Sense Enterprise.  
-Use the in-app license store to purchase a license that will unlock all features for the following 12 months.
-
 ## What's Butler Control-Q?
 
 It's a cross platform application (Windows, macOS) that try to make the life of QSEoW (Qlik Sense Enterprise on Windows) admins a bit easier. The standard Qlik Management Console (=QMC) is good, but it lacks advanced features.
