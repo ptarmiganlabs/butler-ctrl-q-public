@@ -87,4 +87,6 @@ Full terms and End User License Agreement [here]().
 
 ### Task network
 
-![butler-control-q-task-network](./img/butler-control-q-task-network.png "Butler Control-Q task network")
+![butler-control-q-task-network](./img/butler-control-q-task-network-2.png "Butler Control-Q task network")
+
+![butler-control-q-task-network](./img/butler-control-q-task-network-1.png "Butler Control-Q task network")
