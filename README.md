@@ -17,7 +17,7 @@ A powertool for Sense admins, if you like.
 Butler Control-Q includes unique features such as
 
 - View task reload chains in hierarchical tree views, similar to how QlikView's management console works. Example [below](#task-tree-table).
-- View task dependencies as networks, with the network nodes being Sense reload tasks and the links between nodes being task triggers. While this may seem like something of academic interest, it's an extremely useful tool for understanding (and fixing broken!) long, complex reload chains. Example [below](#task-network).
+- View task dependencies as networks, with the network nodes being Sense reload tasks and the links between nodes being task triggers. While this may seem like something of academic interest, it's an extremely useful tool for understanding (and fixing broken!) long, complex reload chains. Examples [below](#task-network).
 - Easily copy any task related information to the clipboard (just right-click, then "copy cell").
 - Export detailed task information as CSV, JSON or YAML. Great for debugging your Sense API integrations.
 - Easy view into what tasks are scheduled (daily, hourly, one-time etc) and what tasks don't have a schedule.
@@ -31,7 +31,7 @@ Yes! While it's still early days for Control-Q, the beta program is open.
 
 The beta versions are available in the [releases](https://github.com/ptarmiganlabs/butler-control-q-public/releases) section of this GitHub project.  
 
-Butler Control-Q is currently (March 2021) in active development with frequent releases of new versions.  
+Butler Control-Q is currently (April 2021) in active development with frequent releases of new versions.  
 
 The features offered by the beta versions are - to the best of our knowledge - stable and production ready. Even the beta versions should thus be quite useful for anyone doing work on Qlik Sens Enterprise on Windows servers.  
 
@@ -63,17 +63,17 @@ You can also download the installer for the new version and install it manually.
 
 ### Performance
 
-All tasks in the target Sense server are loaded into Control-Q. This has been tested on servers with hundreds of tasks, but just querying Sense and then transfering the results to Control-Q does take a while.
+All tasks in the target Sense server are loaded into Control-Q. This has been tested on servers with hundreds of tasks, but just querying Sense and then transfering the results to Control-Q does take a while. As an example, in one case 250 tasks on a single-node QSEoW server takes 10-15 seconds to download and another few seconds to render as network charts. The table views are typically quicker to update than the network view.
 
 The network view of task relations needs some optimisations as it's today a bit slow for large datasets (hundreds of tasks). Still very much useful, but this is an area where improvements can be expected in future versions.
 
 ### Trademarks and legalese
 
-Butler Control-Q is an application developed by Ptarmigan Labs. It is an independent add-on to Qlik Sense Enterprise on Windows.
+Butler Control-Q is an application developed by Ptarmigan Labs AB. It is an independent add-on to Qlik Sense Enterprise on Windows.
 
 While lots of effort goes into making Butler Control-Q stable, reliable and safe, the application is provided 'as is' without any express or implied warranty of any kind.
 
-Full terms and End User License Agreement [here]().
+Full terms and End User License Agreement [here](https://github.com/ptarmiganlabs/butler-control-q-public/blob/main/eula.md).
 
 ## Sample screen shots
 
