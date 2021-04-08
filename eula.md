@@ -50,7 +50,8 @@ Ptarmigan Labs AB expressly disclaims any warranty for the Software. The Softwar
 
 ## Limitation of liability
 
-In no event shall Ptarmigan Labs AB be liable for any damages (including, without limitation, lost profits, business interruption, or lost information) rising out of your use of or inability to use the Software, even if Ptarmigan Labs AB has been advised of the possibility of such damages. In no event will Ptarmigan Labs AB be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Ptarmigan Labs AB shall have no liability with respect to the content of the Software or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.
+Ptarmigan Labs' liability is limited by the amount paid by licensee for the license.
+That liability includes, without limitation, lost profits, business interruption, or lost information rising out of your use of or inability to use the Software, even if Ptarmigan Labs AB has been advised of the possibility of such damages. In no event will Ptarmigan Labs AB be liable for loss of data or for indirect, special, incidental, consequential (including lost profit), or other damages based in contract, tort or otherwise. Ptarmigan Labs AB shall have no liability with respect to the content of the Software or any part thereof, including but not limited to errors or omissions contained therein, libel, infringements of rights of publicity, privacy, trademark rights, business interruption, personal injury, loss of privacy, moral rights or the disclosure of confidential information.
 
 ## Governing Law
 
