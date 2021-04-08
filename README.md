@@ -61,6 +61,44 @@ Run the "Check for Updates..." command from the menu. If there is a new version 
 
 You can also download the installer for the new version and install it manually. All settings from previous version will remain.
 
+## Features
+
+### Basic table view
+
+This view is essentially a superset of the task view available in QSEoW's Qlik Management Console (QMC). 
+Features include:
+- One row per reload task.
+- Customisable auto refresh timer (1-10 minutes).
+- The current status for each task (running, finished successfully, failed etc) is shown in its own, color coded column.
+- Individual columns can be shown/hidden from the menus in the Task and App column headers. 
+   The hide/show status for each column is remembered and will be used next time the application starts.
+- Tasks can be started/stopped from dedicated columns within the table, or by right clicking a task and select start/stop task.
+- If multiple tasks are selected they can all be started/stopped by right clicking and selecting start/stop task.
+- Right clicking a row (=task) also lets you copy all data for the current task to the clipboard
+- The contents of any table cell can be copied to the clipboard from the right-click menu
+- The full JSON structure for the current task can be copied to clipboard from the right click > Developer menu.
+- The complete table can be downloaded as JSON or CSV
+- Table page size can be changed to show 20, 50 or 100 tasks in a single page.
+
+### Tree table view
+
+Same features as the basic table plus these:
+- The tree table is grouped on scheduled and non-scheduled tasks. A scheduled task is a task that has at least one date/time trigger.
+- The `Task name` column contains a tree view of task dependencies. If a task is part of more than one reload chain it will appear more than once in the task tree view. This also means that the total number of rows in the table may be higher than the total number of reload tasks in the Sense server.
+
+### Network view
+
+- Basic network concepts (nodes = tasks, edges=triggers).
+- Metatasks=schema events and composite events
+
+### Clustering
+
+## Security
+
+The current version of BCQ is read-only, i.e. it is not possible to change any information about Sense reload tasks, applications etc. 
+
+The certificates used to authenticate with QSEoW are stored in BCQ's config file. The config file itself is encrypted with a basic crypto, but it's primarily a way to avoid clear text storage of the certificates and other information in the config file.
+
 ### Performance
 
 All tasks in the target Sense server are loaded into Control-Q. This has been tested on servers with hundreds of tasks, but just querying Sense and then transfering the results to Control-Q does take a while. As an example, in one case 250 tasks on a single-node QSEoW server takes 10-15 seconds to download and another few seconds to render as network charts. The table views are typically quicker to update than the network view.
