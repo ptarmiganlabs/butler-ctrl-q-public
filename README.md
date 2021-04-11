@@ -41,7 +41,7 @@ The features offered by the beta versions are - to the best of our knowledge - s
 
 Yes! The app has a built-in license store. Just click on the yellow trial toolbar and follow the instructions.
 
-If you prefer to do this from a browser the address is [store.ptarmiganlabs.com](https://store.ptarmiganlabs.com).  
+If you prefer to do this from a browser the address is [store.ptarmiganlabs.com](https://bcq.ptarmiganlabs.com/shop.html).  
 There you also find licensing terms etc.
 
 AND - until May 15, 2021 you get a 20% early bird discount off the regular price!
@@ -50,8 +50,10 @@ AND - until May 15, 2021 you get a 20% early bird discount off the regular price
 
 ### Basic table view
 
-This view is essentially a superset of the task view available in QSEoW's Qlik Management Console (QMC). 
+This view is essentially a superset of the task view available in QSEoW's Qlik Management Console (QMC).
+
 Features include:
+
 - One row per reload task.
 - Customisable auto refresh timer (1-10 minutes).
 - The current status for each task (running, finished successfully, failed etc) is shown in its own, color coded column.
