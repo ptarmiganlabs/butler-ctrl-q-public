@@ -1,20 +1,20 @@
-![butler-control-q-logo](./img/icon_128x128.png "Butler Control-Q logo")
+![butler-ctrl-q-logo](./img/icon_128x128.png "Butler Ctrl-Q logo")
 
-## Butler Control-Q: A better admin console for Qlik Sense.
+## Butler Ctrl-Q: A better admin console for Qlik Sense.
 
 This repository...
 
-1. Is the central download repository for Butler Control-Q.  
-   Current and past versions are available in the [Releases](https://github.com/ptarmiganlabs/butler-control-q-public/releases) section.
-2. Contains the public [bug/issues/feature tracker](https://github.com/ptarmiganlabs/butler-control-q-public/issues).
-3. Provides a [discussion forum](https://github.com/ptarmiganlabs/butler-control-q-public/discussions) in which you can ask questions, describe ideas for new features etc.
+1. Is the central download repository for Butler Ctrl-Q.  
+   Current and past versions are available in the [Releases](https://github.com/ptarmiganlabs/butler-ctrl-q-public/releases) section.
+2. Contains the public [bug/issues/feature tracker](https://github.com/ptarmiganlabs/butler-ctrl-q-public/issues).
+3. Provides a [discussion forum](https://github.com/ptarmiganlabs/butler-ctrl-q-public/discussions) in which you can ask questions, describe ideas for new features etc.
 
-## What's Butler Control-Q?
+## What's Butler Ctrl-Q?
 
 It's a cross platform application (Windows, macOS) that try to make the life of QSEoW (Qlik Sense Enterprise on Windows) admins a bit easier. 
 A powertool for Sense admins, if you like.  
 
-Butler Control-Q includes unique features such as
+Butler Ctrl-Q includes unique features such as
 
 - View task reload chains in hierarchical tree views, similar to how QlikView's management console works. Example [below](#task-tree-table).
 - View task dependencies as networks, with the network nodes being Sense reload tasks and the links between nodes being task triggers. While this may seem like something of academic interest, it's an extremely useful tool for understanding (and fixing broken!) long, complex reload chains. Examples [below](#task-network).
@@ -27,11 +27,11 @@ This may change in future versions.
 
 ## Can I try it?
 
-Yes! While it's still early days for Control-Q, the beta program is open.
+Yes! While it's still early days for Ctrl-Q, the beta program is open.
 
-The beta versions are available in the [releases](https://github.com/ptarmiganlabs/butler-control-q-public/releases) section of this GitHub project.  
+The beta versions are available in the [releases](https://github.com/ptarmiganlabs/butler-ctrl-q-public/releases) section of this GitHub project.  
 
-Butler Control-Q is currently (April 2021) in active development with frequent releases of new versions.  
+Butler Ctrl-Q is currently (May 2021) in active development with frequent releases of new versions.  
 
 The features offered by the beta versions are - to the best of our knowledge - stable and production ready. Even the beta versions should thus be quite useful for anyone doing work on Qlik Sens Enterprise on Windows servers.  
 
@@ -39,12 +39,10 @@ The features offered by the beta versions are - to the best of our knowledge - s
 
 ## Can I buy it?
 
-Yes! The app has a built-in license store. Just click on the yellow trial toolbar and follow the instructions.
+Soon! The app has a built-in license store, but it's not quite ready yet. Once it becomes operational, just click on the yellow trial toolbar and follow the instructions.
 
 If you prefer to do this from a browser the address is [store.ptarmiganlabs.com](https://bcq.ptarmiganlabs.com/shop.html).  
 There you also find licensing terms etc.
-
-AND - until May 15, 2021 you get a 20% early bird discount off the regular price!
 
 ## Features
 
